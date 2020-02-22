@@ -15,8 +15,8 @@ public class IdadeEmDias {
 		System.out.print("Quantos dias voce tem? ");
 		int day = scanner.nextInt();
 		
-		int birthday = (year * 365) + (mounth * 30) + day;
+		int dateInDays = (year * 365) + (mounth * 30) + day;
 		
-		System.out.println("Sua idade em dias é: " +  birthday);
+		System.out.println("Sua idade em dias é: " +  dateInDays);
 	}
 }
